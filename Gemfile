@@ -8,24 +8,10 @@ gem 'rake'
 gem 'require_all'
 gem 'sinatra'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
-# gem 'thin'
-gem 'pg', '0.18.4'
+gem 'pg'
 
 group :development do
     gem 'pry'
     gem 'shotgun'
     gem 'tux'
-    # gem 'sqlite3'
 end
-
-
-#
-#
-#
-# source 'https://rubygems.org'
-# gem 'activerecord', require: 'active_record'
-# gem 'pg'
-# gem 'sinatra-activerecord'
-# gem 'rake'
-#
-# gem 'json', github: 'flori/json', branch: 'v1.8'
