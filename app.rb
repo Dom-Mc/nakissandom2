@@ -5,4 +5,5 @@ require 'active_record'
 require_relative 'config/environments'
 
 get '/' do
+  erb :index
 end
